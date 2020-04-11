@@ -94,8 +94,8 @@ zh_TW:
       demoted: 使用者已成功降級
       invite: "邀請已成功寄送到 %{email}"
       invite_email_verification: 必須啟用電子郵件才能使用此方法，請與系統管理員聯繫。
-      merge_fail: 合併使用者帳戶時出現問題，請檢查選定的使用者並重試。 
-      merge_success: 使用者帳戶成功合併
+      merge_fail: 合併使用者帳號時出現問題，請檢查選定的使用者並重試。 
+      merge_success: 使用者帳號成功合併
       perm_deleted: 使用者已被永久刪除
       promoted: 使用者已成功升級
       registration_method_updated: 註冊方法已成功更新
@@ -116,7 +116,7 @@ zh_TW:
       manage_rooms_recordings: 允許具有此角色的使用者管理伺服器所有會議室和錄影
       name: 角色名稱
       new_role: 創建新角色
-      role_has_users: "此角色已分配給 %{user_count} 等帳戶。 請刪除此角色中的所有帳戶再刪除角色。"
+      role_has_users: "此角色已分配給 %{user_count} 等帳號。 請刪除此角色中的所有帳號再刪除角色。"
       title: 角色
       promote_email: 分配此角色後向使用者發送電子郵件
       demote_email: 將使用者從此角色中刪除後向其發送電子郵件
@@ -171,7 +171,7 @@ zh_TW:
   copy: 複製
   date:
     month_names: [~, 一月, 二月, 三月, 四月, 五月, 六月, 七月, 八月, 九月, 十月, 十一月, 十二月]
-  default_admin: "您仍在使用此帳戶的初始預設密碼。 請點擊 <a href=\"%{edit_link}\">這裡</a> 修改。"
+  default_admin: "您仍在使用此帳號的初始預設密碼。 請點擊 <a href=\"%{edit_link}\">這裡</a> 修改。"
   delete: 刪除
   delivery_error: 電子郵件傳遞過程中出錯。請聯繫管理員！
   docs: 文檔
@@ -247,7 +247,7 @@ zh_TW:
   home_room: 主會議室
   info_update_success: 資訊更新成功。
   invalid_credentials: 您輸入的電子郵件和密碼與我們的記錄不相符，請重試或按下「忘記密碼」重置密碼。
-  invalid_login_method: 由於帳戶不相符，登錄失敗。您需要使用Omniauth登錄。
+  invalid_login_method: 由於帳號不相符，登錄失敗。您需要使用Omniauth登錄。
   invite_message: "邀請他人參加會議，請發送以下連結："
   javascript:
     room:
@@ -267,20 +267,20 @@ zh_TW:
   language_default: 預設（流覽器語言）
   ldap_error: 無法連接到LDAP伺服器，請在env檔中檢查LDAP配置，還要確保服務已經啟動。
   login: 登錄
-  login_title: 登錄到您的帳戶
+  login_title: 登錄到您的帳號
   mailer:
     user:
       approve:
-        info: 您的帳戶已被批准。
+        info: 您的帳號已被批准。
         signin: 要訪問您的個人會議室，請按一下下面的按鈕並登錄。
         signin_link: 登錄
         signup:
           info: 一個新使用者已註冊使用Greenlight。
-          more-info: 若要允許此使用者訪問greenlight，您必須在「網站管理」中批准其帳戶。
+          more-info: 若要允許此使用者訪問greenlight，您必須在「網站管理」中批准其帳號。
           admins_link: 訪問網站管理頁面
           subject: 新Greenlight使用者註冊
           username: "使用者註冊了名稱 %{name} 和電子郵箱 %{email}."
-        subject: 帳戶已批准
+        subject: 帳號已批准
         username: "您的使用者帳號是 %{email}."
       demoted:
         info: "您不再是 %{role} 在 %{url}中."
@@ -314,9 +314,9 @@ zh_TW:
         welcome: "歡迎來到您的個人空間，%{name}！"
         success: "使用%{bigbluebutton}，您可以創建個人會議室來主持會議並與其他人協作。"
         username: "您的使用者帳號是%{email}。"
-        verify: 要驗證您的帳戶，只需按一下下面的按鈕。
-        verify_text: '要驗證您的帳戶，只需點擊以下連結：%{url}'
-        verify_link: 驗證帳戶
+        verify: 要驗證您的帳號，只需按一下下面的按鈕。
+        verify_text: '要驗證您的帳號，只需點擊以下連結：%{url}'
+        verify_link: 驗證帳號
         thanks: 感謝您的加入，祝您擁有美好的一天！
   maintenance:
     window_alert: "計畫的維護時段 %{date}"
@@ -339,10 +339,10 @@ zh_TW:
       not_blank: 會議室名稱不能為空
       title: 創建新的會議室
     delete_account:
-      confirm: 確實要刪除此帳戶嗎？
-      delete: 我確定要刪除這個帳戶。
+      confirm: 確實要刪除此帳號嗎？
+      delete: 我確定要刪除這個帳號。
       keep: 我還是留著吧。
-      delete_warning: 這將停用使用者的帳戶。在“已刪除”選項卡下可以找到所有未啟動的使用者。
+      delete_warning: 這將停用使用者的帳號。在“已刪除”選項卡下可以找到所有未啟動的使用者。
       warning: 這是最終決定，您將<b>無法</b>恢復相關資料。
     delete_room:
       confirm: "確定要刪除%{room}嗎?"
@@ -384,11 +384,11 @@ zh_TW:
       select: 選擇使用者
     merge_user:
       cancel: 取消
-      from: 要合併的帳戶
-      title: 合併使用者的帳戶
-      to: 主帳戶
+      from: 要合併的帳號
+      title: 合併使用者的帳號
+      to: 主帳號
       save: 合併
-      footer: 要合併的帳戶的會議室將轉移到主帳戶的會議室列表，然後刪除該帳戶。
+      footer: 要合併的帳號的會議室將轉移到主帳號的會議室列表，然後刪除該帳號。
   name_update_success: 會議室名稱修改成功！
   no_user_email_exists: 沒有指定電子郵件的現有使用者。請確保輸入正確。
   omniauth_error: 與omniauth進行身份驗證時出錯。請再試一次，或與管理員聯繫！
@@ -437,15 +437,15 @@ zh_TW:
       video: 影片
   registration:
     approval:
-      fail: 您的帳戶尚未批准，如果您註冊後已過多天，請與管理員聯繫。
-      signup: 您的帳戶創建完成，稍後管理員會審批。
+      fail: 您的帳號尚未批准，如果您註冊後已過多天，請與管理員聯繫。
+      signup: 您的帳號創建完成，稍後管理員會審批。
     banned:
       fail: 您沒有訪問此應用程式的許可權。如果您認為這是一個錯誤，請聯繫您的管理員。 
     deprecated:
-      new_signin: 為您的帳戶選擇新的登錄方法。舊帳戶中的所有會議室都將遷移到新帳戶。
-      twitter_signin: "通過Twitter登錄已被棄用並將在下一版本中刪除。 點擊 <a href=\"%{link}\"> 這裡 </a> 將您的帳戶移動到新的身份驗證方法。"
+      new_signin: 為您的帳號選擇新的登錄方法。舊帳號中的所有會議室都將遷移到新帳號。
+      twitter_signin: "通過Twitter登錄已被棄用並將在下一版本中刪除。 點擊 <a href=\"%{link}\"> 這裡 </a> 將您的帳號移動到新的身份驗證方法。"
       twitter_signup: 已棄用Twitter註冊。請使用其他註冊方法。
-      merge_success: 已成功將您的Twitter帳戶與新帳戶合併。您的舊Twitter帳戶已被刪除。
+      merge_success: 已成功將您的Twitter帳號與新帳號合併。您的舊Twitter帳號已被刪除。
     invite:
       fail: 您的 token 無效或已過期，如您認為這是一個錯誤，請聯繫您的管理員。
       no_invite: 您沒有被邀請加入，請聯繫管理員申請邀請。
@@ -521,10 +521,10 @@ zh_TW:
       subtitle: 更新帳號資訊
       title: 帳號資訊
     delete:
-      button: 我確定要刪除我的帳戶
-      disclaimer: 刪除帳戶後<b>無法</b>恢復。帳戶所有相關資訊都會被移除，包括設定、會議室和錄影。
-      subtitle: 永久刪除您的帳戶
-      title: 刪除帳戶
+      button: 我確定要刪除我的帳號
+      disclaimer: 刪除帳號後<b>無法</b>恢復。帳號所有相關資訊都會被移除，包括設定、會議室和錄影。
+      subtitle: 永久刪除您的帳號
+      title: 刪除帳號
     password:
       confirmation: 確認新密碼
       new: 新密碼
@@ -535,7 +535,7 @@ zh_TW:
     search: 搜尋
   signup:
     password_confirm: 確認密碼
-    subtitle: 創建帳戶
+    subtitle: 創建帳號
     title: 註冊
     with: "通過%{provider}註冊"
   terms:
@@ -547,11 +547,11 @@ zh_TW:
   update: 更新
   verify:
     accept: 驗證
-    activated: 帳戶驗證成功！
-    already_verified: 帳戶已經驗證過了
+    activated: 帳號驗證成功！
+    already_verified: 帳號已經驗證過了
     invalid: 無效的驗證連結
-    not_verified: 您的帳戶尚未驗證。
+    not_verified: 您的帳號尚未驗證。
     resend: 重新發送驗證電子郵件
-    signin: 請登錄以訪問您的帳戶。
+    signin: 請登錄以訪問您的帳號。
     title: 驗證您的電子郵箱
     verification: 驗證
